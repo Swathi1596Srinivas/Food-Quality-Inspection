@@ -1,0 +1,48 @@
+Food Quality Assessment System — Evaluation Metrics
+============================================================
+
+Dataset: C:\Users\JANARDHAM\Desktop\project dataset_cleaned
+Total Images: 3500 | Test Set: 525
+Classes: 7 - Damaged, Dried, Fresh, Old, Ripe, Rotten, Unripe
+Best Validation Accuracy: 96.57%
+
+============================================================
+  OVERALL METRICS
+============================================================
+  Test Accuracy      : 94.48%
+  Precision (Macro)  : 94.82%
+  Recall (Macro)     : 96.69%
+  F1-Score (Macro)   : 95.66%
+  Precision (Wtd)    : 94.57%
+  Recall (Wtd)       : 94.48%
+  F1-Score (Wtd)     : 94.46%
+
+============================================================
+  PER-CLASS METRICS
+============================================================
+  Class          Precision      Recall    F1-Score
+  ----------------------------------------------
+  Damaged           88.57%     100.00%      93.94%
+  Dried             97.87%     100.00%      98.92%
+  Fresh             94.07%      88.81%      91.37%
+  Old              100.00%      96.36%      98.15%
+  Ripe             100.00%      98.31%      99.15%
+  Rotten            92.11%      93.33%      92.72%
+  Unripe            91.11%     100.00%      95.35%
+
+============================================================
+  CLASSIFICATION REPORT
+============================================================
+              precision    recall  f1-score   support
+
+     Damaged     0.8857    1.0000    0.9394        31
+       Dried     0.9787    1.0000    0.9892        46
+       Fresh     0.9407    0.8881    0.9137       143
+         Old     1.0000    0.9636    0.9815        55
+        Ripe     1.0000    0.9831    0.9915        59
+      Rotten     0.9211    0.9333    0.9272       150
+      Unripe     0.9111    1.0000    0.9535        41
+
+    accuracy                         0.9448       525
+   macro avg     0.9482    0.9669    0.9566       525
+weighted avg     0.9457    0.9448    0.9446       525
